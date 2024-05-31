@@ -1,0 +1,30 @@
+fieldset{
+    margin: 50px 50px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 3px solid black;
+    height: 50%;
+    width: 50%;
+
+}
+legend{
+    color: black;
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+button{
+    background-color: rgb(44, 230, 44);
+    margin: 50px;
+    padding: 10px 20px;
+    transform: -50s;
+    border-radius:solid black 20px;
+}
+button:hover{
+    transition: -0.5s;
+}
+fieldset:hover{
+    transform: translateY(-5px);
+    background-color: rgb(227, 13, 120);
+}
